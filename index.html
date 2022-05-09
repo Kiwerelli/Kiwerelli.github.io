@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-
 <html>
     <head>
+        <meta charset="UTF-8" />
         <title>MapHosting</title>
     </head>
     <body>
-        <img src="images/adventure_map_4k.png">
+        <div id="root">
+            <nav id="map_list">
+                <a href="/map_4k" onclick="route()">Mappa 4k</a>
+                <a href="/map_8k" onclick="route()">Mappa 8k</a>
+                <a href="/parchment_4k" onclick="route()">Pergamena 4k</a>
+            </nav> 
+            <div id="main-page"></div>
+        </div>
+        <script src="js/router.js"></script>
     </body>
 </html>
