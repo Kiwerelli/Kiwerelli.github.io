@@ -1,0 +1,12 @@
+{
+    "citta" : [
+        {
+            "nome": "Baldur's Gate", 
+            "plotAperti": "Si" 
+        },
+        {
+            "nome": "Twin Songs", 
+            "plotAperti": "Si" 
+        }
+    ] 
+}

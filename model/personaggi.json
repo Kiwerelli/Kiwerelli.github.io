@@ -1,0 +1,39 @@
+{
+    "personaggi" : [
+        {
+            "nome": "Adam",
+            "cognome": "Do'iryn",
+            "classe": "Ladro"
+        },
+        {
+            "nome": "Aegar",
+            "cognome": "Stormjaeger",
+            "classe": "Guerriero/Chierico"
+        },
+        {
+            "nome": "Gagliardo",
+            "cognome": "Wallace",
+            "classe": "Guerriero"
+        },
+        {
+            "nome": "Ghenos",
+            "cognome": "Vile",
+            "classe": "Occultista"
+        },
+        {
+            "nome": "Maha",
+            "cognome": "Sileha",
+            "classe": "Druido"
+        },
+        {
+            "nome": "Sargas",
+            "cognome": "Baerenor",
+            "classe": "Mago/Chierico"
+        },
+        {
+            "nome": "Secondo",
+            "cognome": "Goldenfield",
+            "classe": "Bardo"
+        }
+    ]
+}

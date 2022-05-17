@@ -1,0 +1,69 @@
+<div class="accordion" id="accordionMain">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOneMain">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" onclick="resetFilter('filtra_personaggi', 'tab_personaggi')">
+                Lista personaggi giocanti
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOneMain" data-bs-parent="#accordionMain">
+            <div class="accordion-body">
+                <div class="card col-12">
+                    <div class="card-body">
+                        <h5 class="card-title">Lista personaggi giocanti</h5>
+                        <input type="text" id="filtra_personaggi" class="inputFilter" onkeyup="filterTabs('filtra_personaggi', 'tab_personaggi')" placeholder="Filtra i personaggi..">
+                        <table id="tab_personaggi" class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col">Cognome</th>
+                                    <th scope="col">Classe</th>
+                                </tr>
+                            </thead>
+                            <tbody id="bodyTabellaPersonaggi">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwoMain">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" onclick="resetFilter('filtra_citta', 'tab_citta')">
+                Lista città esplorate
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwoMain" data-bs-parent="#accordionMain">
+            <div class="accordion-body">
+                <div class="card col-12">
+                    <div class="card-body">
+                        <h5 class="card-title">Lista città esplorate</h5>
+                        <input type="text" id="filtra_citta" class="inputFilter" onkeyup="filterTabs('filtra_citta', 'tab_citta')" placeholder="Filtra le città..">
+                        <table id="tab_citta" class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col">Plot aperti</th>
+                                </tr>
+                            </thead>
+                            <tbody id="bodyTabellaCitta">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThreeMain">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThreeMain" data-bs-parent="#accordionMain">
+            <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+        </div>
+    </div>
+</div>

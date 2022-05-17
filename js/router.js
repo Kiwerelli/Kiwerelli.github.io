@@ -6,6 +6,7 @@ const route = (event) => {
 };
 
 const routes = {
+    "/": "pages/main.html",
     "/map_4k": "pages/map_4k.html",
     "/map_8k": "pages/map_8k.html",
     "/parchment_4k": "pages/parchment_4k.html",
@@ -13,12 +14,11 @@ const routes = {
 
 const handleLocation = async () => {
     const path = window.location.pathname;
-    if (path !== "/") {
-        const route = routes[path];
-        const html = await fetch(route).then((data) => data.text());
-        document.getElementById("main-page").innerHTML = html;
-    }
+    const route = routes[path];
+    const html = await fetch(route).then((data) => data.text());
+    document.getElementById("main-page").innerHTML = html;
 }
+
 window.onpopstate = handleLocation;
 window.route = route;
 
