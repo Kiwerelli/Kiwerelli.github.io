@@ -3,37 +3,44 @@
         {
             "nome": "Adam",
             "cognome": "Do'iryn",
-            "classe": "Ladro"
+            "classe": "Ladro",
+            "modIni": 5
         },
         {
             "nome": "Aegar",
             "cognome": "Stormjaeger",
-            "classe": "Guerriero/Chierico"
+            "classe": "Guerriero/Chierico",
+            "modIni": 3
         },
         {
             "nome": "Gagliardo",
             "cognome": "Wallace",
-            "classe": "Guerriero"
+            "classe": "Guerriero",
+            "modIni": 5
         },
         {
             "nome": "Ghenos",
             "cognome": "Vile",
-            "classe": "Occultista"
+            "classe": "Occultista",
+            "modIni": 2
         },
         {
             "nome": "Maha",
             "cognome": "Sileha",
-            "classe": "Druido"
+            "classe": "Druido",
+            "modIni": 3
         },
         {
             "nome": "Sargas",
             "cognome": "Baerenor",
-            "classe": "Mago/Chierico"
+            "classe": "Mago/Chierico",
+            "modIni": 2
         },
         {
             "nome": "Secondo",
             "cognome": "Goldenfield",
-            "classe": "Bardo"
+            "classe": "Bardo",
+            "modIni": 2
         }
     ]
 }

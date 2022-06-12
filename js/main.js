@@ -45,8 +45,9 @@ function filterTabs(idFilter, idTable) {
 function fetchJSON() {
     content = window.location.pathname
     switch (content) {
-        case '/':
+        case '/main':
             fetchJSON_main();
+            fetchPersonaggi();
             break;
         case '/parchment_4k':
             break;

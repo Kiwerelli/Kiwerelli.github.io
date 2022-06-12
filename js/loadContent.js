@@ -16,7 +16,7 @@ async function fetchData(key, value) {
 }
 
 
-window.onload = loadContent;
+//window.onload = loadContent;
 
-loadContent();
-fetchJSON();
+//loadContent();
+//fetchJSON();
