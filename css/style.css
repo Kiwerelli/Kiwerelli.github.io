@@ -51,3 +51,10 @@ a {
     text-decoration: none;
     color: #ddd;
 }
+
+/* Pg Pathfinder */
+h6 {
+    background-color: rgb(207,226,243);
+    padding: 3px;
+    margin: 10px 0px;  
+}
