@@ -6,7 +6,8 @@ const route = (event) => {
 };
 
 const routes = {
-    "/": "/pages/pathfinderlookup.html",
+    "/": "/pages/main.html",
+    /* Routes Personaggi */
     "/personaggi": "/pages/personaggi.html",
     "/personaggi/rufus": "/pages/personaggi/rufus.html",
     "/personaggi/medb": "/pages/personaggi/medb.html",
@@ -15,6 +16,10 @@ const routes = {
     "/personaggi/victor": "/pages/personaggi/victor.html",
     "/personaggi/vincent": "/pages/personaggi/vincent.html",
     "/personaggi/sorumur": "/pages/personaggi/sorumur.html",
+    /* Routes Equipaggio */
+    "/equipaggio": "/pages/equipaggio.html",
+    /* Routes Png */
+    "/png": "/pages/png.html",
 }
 
 const handleLocation = async () => {

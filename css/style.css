@@ -40,6 +40,27 @@
     opacity: 1;
 }*/
 
+
+
+@media screen and (min-width: 768px) {
+    .format-figcaption {
+        display: inline-block;
+        margin-bottom: 5px;
+    } 
+
+    .gallery.small {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+
+    .gallery.x-small {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
 @media screen and (max-width: 767px) {
 	.gallery { 
         -webkit-column-count: 2;
