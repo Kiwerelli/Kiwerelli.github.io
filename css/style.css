@@ -46,7 +46,9 @@
         -moz-column-count: 2;
         column-count: 2;
     }
-	.gallery div { margin: 0; 
+	.gallery div {
+        margin-left: auto; 
+        margin-right: auto; 
         width: 200px;
     }
 }
@@ -58,7 +60,8 @@
         column-count: 1;
     }
     .gallery div { 
-        margin: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
         width: 200px;
     }
 }
@@ -69,7 +72,7 @@ a {
 }
 
 /* Pg Pathfinder */
-h6 {
+h5, h6 {
     background-color: rgb(207,226,243);
     padding: 3px;
     margin: 10px 0px;  
@@ -85,9 +88,11 @@ h6 {
     transition: .9s;
     backface-visibility: hidden;
 }
+/*
 .flip:active img{
     transform: perspective(1000px) rotateY(-180deg);
 }
+*/
 .flip .content{
     position: absolute;
     top: 0;  left: 0;
@@ -96,6 +101,15 @@ h6 {
     transition: .9s;
     backface-visibility: hidden;
 }
+/*
 .flip:active .content{
     transform: perspective(1000px) rotateY(0deg);
+}
+*/
+
+/* pagina personggio*/
+.profile-pic {
+    margin-left: auto; 
+    margin-right: auto;
+    width: 300px;
 }
