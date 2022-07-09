@@ -1,7 +1,7 @@
 const contentIncludes = {
-    //"nav_personaggi": "includes/nav_personaggi.html",
-    //"nav_mappe": "includes/nav_mappe.html",
-    //"nav_citta": "includes/nav_citta.html",
+    "nav_personaggi": "includes/nav_personaggi.html",
+    "nav_mappe": "includes/nav_mappe.html",
+    "nav_citta": "includes/nav_citta.html",
 }
 
 const loadContent = async () => {
@@ -16,6 +16,7 @@ async function fetchData(key, value) {
 }
 
 
-window.onload = loadContent;
+//window.onload = loadContent;
 
-loadContent();
+//loadContent();
+//fetchJSON();

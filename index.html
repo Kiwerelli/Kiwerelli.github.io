@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/table.css">
     <!--Custom JS import-->
-    <script type="text/javascript" src="js/utility.js"></script>
     <script type="text/javascript" src="js/router.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/loadContent.js"></script>
@@ -26,20 +25,79 @@
     <!--
     <nav id="mainTopNavBar" class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/" onclick="route(); fetchJSON()">Casetta</a>
+            <a class="navbar-brand" href="/" onclick="route()">Casetta</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown" id="nav_personaggi"></li>
-                    <li class="nav-item dropdown" id="nav_citta"></li>
-                    <li class="nav-item dropdown" id="nav_mappe"></li>
+                    <li class="nav-item dropdown" id="nav_equipaggio"></li>
+                    <li class="nav-item dropdown" id="nav_png"></li>
+                    <li class="nav-item dropdown" id="nav_porti"></li>
+                    <li class="nav-item dropdown" id="nav_isole"></li>
+                    <li class="nav-item dropdown" id="nav_bestiario"></li>
+                    <li class="nav-item dropdown" id="nav_handouts"></li>
+                    <li class="nav-item dropdown" id="nav_varie"></li>
                 </ul>
             </div>
         </div>
     </nav>
     -->
+
+    <nav id="mainTopNavBar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/" onclick="route()">Casetta Piratella</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li>
+                        <a class="dropdown-item" id="nav_personaggi" href="/personaggi" onclick="route()">
+                            Personaggi
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" id="nav_equipaggio" href="/equipaggio" onclick="route()">
+                            Equipaggio
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" id="nav_png" href="/png" onclick="route()">
+                            Png
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" id="nav_porti" href="/porti" onclick="route()">
+                            Porti
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" id="nav_isole" href="/isole" onclick="route()">
+                            Isole
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" id="nav_bestiario" href="/bestiario" onclick="route()">
+                            Bestiario
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" id="nav_handouts" href="/handouts" onclick="route()">
+                            Handouts
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" id="nav_varie" href="/varie" onclick="route()">
+                            Varie
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div id="main-page" class="content col-12"></div>
     
 </body>
