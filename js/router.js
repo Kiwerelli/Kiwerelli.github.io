@@ -20,6 +20,8 @@ const routes = {
     "/equipaggio": "/pages/equipaggio.html",
     /* Routes Png */
     "/png": "/pages/png.html",
+    /* Routes Porti */
+    "/porti": "/pages/porti.html",
 }
 
 const handleLocation = async () => {

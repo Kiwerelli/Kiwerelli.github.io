@@ -109,11 +109,7 @@ h5, h6 {
     transition: .9s;
     backface-visibility: hidden;
 }
-/*
-.flip:active img{
-    transform: perspective(1000px) rotateY(-180deg);
-}
-*/
+
 .flip .content{
     position: absolute;
     top: 0;  left: 0;
@@ -122,11 +118,33 @@ h5, h6 {
     transition: .9s;
     backface-visibility: hidden;
 }
-/*
-.flip:active .content{
+
+.flip p{
+    overflow: auto;
+    font-size: medium;
+}
+
+.flip a{
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 479px) {
+    .flip p{
+        font-size: small;
+    }
+}
+
+/* */
+.flip:hover img{
+    transform: perspective(1000px) rotateY(-180deg);
+}
+
+.flip:hover .content{
     transform: perspective(1000px) rotateY(0deg);
 }
-*/
+/* */
 
 /* pagina personggio*/
 .profile-pic {
