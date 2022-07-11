@@ -30,6 +30,11 @@ const handleLocation = async () => {
     if (route === undefined) route = routes['/'];
     const html = await fetch(route).then((data) => data.text());
     document.getElementById("main-page").innerHTML = html;
+    if (path == "/") {
+        document.getElementById("main-page").className = "col-12";
+    } else {
+        document.getElementById("main-page").className = "content col-12";
+    }
 }
 
 window.onpopstate = handleLocation;

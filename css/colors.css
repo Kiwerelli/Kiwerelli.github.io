@@ -1,0 +1,21 @@
+nav {
+    background-color: #f4d499;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: white;
+    background-color: #835211;
+}
+
+p.content {
+    background-color: white;
+}
+
+h5, h6 {
+    background-color: rgb(207,226,243);
+}
+
+main-page-color {
+    background-color: #f4d499;
+}
+
