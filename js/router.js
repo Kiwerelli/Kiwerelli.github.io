@@ -22,6 +22,8 @@ const routes = {
     "/png": "/pages/png.html",
     /* Routes Porti */
     "/porti": "/pages/porti.html",
+    /* Routes Scheda interattiva */
+    "/scheda": "/pages/scheda.html"
 }
 
 const handleLocation = async () => {
@@ -35,6 +37,16 @@ const handleLocation = async () => {
     } else {
         document.getElementById("main-page").className = "content col-12";
     }
+
+    if (path == "/scheda") {
+        document.getElementById("mainTopNavBar").hidden = true;
+        document.getElementById("schedaTopNavBar").hidden = false;
+    } else {
+        document.getElementById("mainTopNavBar").hidden = false;
+        document.getElementById("schedaTopNavBar").hidden = true;
+    }
+
+
 }
 
 window.onpopstate = handleLocation;

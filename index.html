@@ -14,6 +14,7 @@
     <!--Custom CSS import-->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/colors.css">
+    <link rel="stylesheet" href="/css/table.css">
     <!--Custom JS import-->
     <script type="text/javascript" src="/js/router.js"></script>
     <script type="text/javascript" src="/js/main.js"></script>
@@ -22,28 +23,6 @@
     <title>Roba un botto utile</title>
 </head>
 <body>
-    <!--
-    <nav id="mainTopNavBar" class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/" onclick="route()">Casetta</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown" id="nav_personaggi"></li>
-                    <li class="nav-item dropdown" id="nav_equipaggio"></li>
-                    <li class="nav-item dropdown" id="nav_png"></li>
-                    <li class="nav-item dropdown" id="nav_porti"></li>
-                    <li class="nav-item dropdown" id="nav_isole"></li>
-                    <li class="nav-item dropdown" id="nav_bestiario"></li>
-                    <li class="nav-item dropdown" id="nav_handouts"></li>
-                    <li class="nav-item dropdown" id="nav_varie"></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    -->
 
     <nav id="mainTopNavBar" class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
@@ -93,8 +72,34 @@
                             Varie
                         </a>
                     </li>
+                    <li>
+                        <a class="dropdown-item" id="nav_scheda" href="/scheda">
+                            Scheda interattiva Vincent
+                        </a>
+                    </li>
                 </ul>
             </div>
+        </div>
+    </nav>
+
+    <nav id="schedaTopNavBar" class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Casetta Piratella <i class="fa-solid fa-anchor"></i></a>
+            <!--
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent_1" aria-controls="navbarSupportedContent_1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent_1">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li>
+                        <a class="dropdown-item" id="nav_personaggi" href="/personaggi">
+                            Personaggi
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            -->
         </div>
     </nav>
 

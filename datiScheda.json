@@ -1,0 +1,113 @@
+{
+    "core": {
+        "character_details": {
+            "race": "Human",
+            "alignment": "CN",
+            "gender": "Maschio",
+            "size": "Medium",
+            "age": "23",
+            "height": "180",
+            "eyes": "Verdi",
+            "hair": "Biondi",
+            "skin": "Chiara",
+            "homeland": "Riddleport, Varisia",
+            "occupation": "Mercenario"
+        },
+        "ability_scores": [
+            {"ability": "Strength", "total": 13, "mod": 1},
+            {"ability": "Dexterity", "total": 18, "mod": 4},
+            {"ability": "Constitution", "total": 14, "mod": 2},
+            {"ability": "Intelligence", "total": 14, "mod": 2},
+            {"ability": "Wisdom", "total": 12, "mod": 1},
+            {"ability": "Charisma", "total": 16, "mod": 3}
+        ],
+        "health": {"current": 44, "max": 62}
+    },
+    "defenses": {
+        "saving_throws": {"fort": 8, "ref": 7, "will": 4},
+        "defense_values": {
+            "ac": 22,
+            "touch": 15,
+            "flat_footed": 17,
+            "cmd": 22,
+            "ff_cmd": 17
+        },
+        "armor_shield": [
+            {"name": "Chain Shirt +1", "ac": 5, "max_dex": 5, "acp": -1},
+            {"name": "Buckler +1", "ac": 2, "max_dex": 0, "acp": 0}
+        ],
+        "defense_notes": {
+            "armor_notes": "Stendardo: +3 bonus di schivata all'AC contro gli attacchi di opportunità provocati dal movimento",
+            "cmd_notes": "+4 DMC vs Disarmo"
+        }
+    },
+    "attacks": {
+        "atk_cmb": {"melee": 10, "ranged": 10, "cmb": 10},
+        "atk_notes": {
+            "melee_atk_notes": "Stendardo: +2 di bonus morale per gli attacchi che beneficiano di fiancheggiamento.",
+            "cmb_notes": "+4 BMC vs Disarmo"
+        },
+        "extra_dmg_atk_mod": [
+            {"type": "Colpo preciso (Panache)", "dmg": 6},
+            {"type": "Sfida", "dmg": 6},
+            {"type": "Spaccone", "dmg": 2},
+            {"type": "Precisione (Fiancheggiamento)", "dmg": "1d6"}
+        ],
+        "attacks": [
+            {
+                "name": "Stocco +1 Minacciante",
+                "atk_mod": 12,
+                "crit": 18,
+                "crit_multi": 2,
+                "dmg": "1d6",
+                "dmg_bonus": 5
+            }
+        ]
+    },
+    "abilities": [
+        {"name": "Weapon Finese", "description": "You are trained in using your agility in melee combat, as opposed to brute strength. **Benefit**: With a light weapon, elven curve blade, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls. **Special**: Natural weapons are considered light weapons."},
+        {"name": "Weapon Focus", "description": "Choose one type of weapon.&nbsp; You can also choose unarmed strike or grapple (or ray, if you are a spellcaster) as your weapon for the purposes of this feat.** Prerequisites**: Proficiency with selected weapon, base attack bonus +1. **Benefit**: You gain a +1 bonus on all attack rolls you make using the selected weapon. **Special**: You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon."},
+        {"name": "Combat Reflexes", "description": " You can make additional attacks of opportunity.  **Benefit:** You may make a number of additional attacks of opportunity per round equal to your Dexterity bonus. With this feat, you may also make attacks of opportunity while flat-footed.  **Normal:** A character without this feat can make only one attack of opportunity per round and can't make attacks of opportunity while flat-footed.  **Special:** The Combat Reflexes feat does not allow a rogue to use her opportunist ability more than once per round."},
+        {"name": "Maestria intimorente", "description": "While wielding the weapon in which you have Weapon Focus, you can perform a bewildering show of prowess as a full-round action. Make an Intimidate check to demoralize all foes within 30 feet who can see your display."},
+        {"name": "Improved Disarm", "description": " You are skilled at knocking weapons from a foe's grasp.  **Prerequisite:** Int 13, Combat Expertise.  **Benefit:** You do not provoke an attack of opportunity when performing a disarm combat maneuver. In addition, you receive a +2 bonus on checks made to disarm a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to disarm you.  **Normal:** You provoke an attack of opportunity when performing a disarm combat maneuver."},
+        {"name": "Fencing Grace", "description": " When wielding a rapier one-handed, you can add your Dexterity modifier instead of your Strength modifier to that weapon’s damage. The rapier must be one appropriate for your size. You do not gain this benefit while fighting with two weapons or using flurry of blows, or anytime another hand is otherwise occupied. In addition, if you have the panache class feature, you gain a +2 bonus to your CMD against attempts to disarm you of your rapier while you have at least 1 panache point."},
+        {"name": "Greater Disarm", "description": " You can knock weapons far from an enemy's grasp.  **Prerequisites:** Combat Expertise, Improved Disarm, base attack bonus +6, Int 13.  **Benefit:** You receive a +2 bonus on checks made to disarm a foe. This bonus stacks with the bonus granted by Improved Disarm. Whenever you successfully disarm an opponent, the weapon lands 15 feet away from its previous wielder, in a random direction.  **Normal:** Disarmed weapons and gear land at the feet of the disarmed creature."},
+        {"name": "Tattico", "description": "Al 1° livello, un cavaliere riceve un Talento di Squadra come talento bonus, di cui soddisfi i prerequisiti. Come azione standard, il cavaliere può concedere questo talento a tutti gli alleati entro 9 metri che possono vederlo e sentirlo. Gli alleati mantengono l'utilizzo di questo talento bonus per 3 round + 1 round ogni due livelli da cavaliere posseduti. Gli alleati non hanno bisogno di soddisfare i prerequisiti per questo talento bonus. Il cavaliere può usare questa capacità una volta al giorno al 1° livello, più una volta addizionale al giorno al 5° livello e ogni 5 livelli successivi."},
+        {"name": "Precise Strike", "description": "Whenever you and an ally who also has this feat are flanking the same the creature, you deal an additional 1d6 points of precision damage with each successful melee attack. This bonus damage stacks with other sources of precision damage, such as sneak attack. This bonus damage is not multiplied on a critical hit."},
+        {"name": "Sfida", "description": "Una volta al giorno, un cavaliere può sfidare un nemico a combattere. Come azione veloce, il cavaliere sceglie un bersaglio in vista da sfidare. Gli attacchi in mischia del cavaliere infliggono danni extra ogni volta che vengono sferrati contro il bersaglio della sua sfida. Questo danno extra è pari al livello del cavaliere. Il cavaliere può usare questa capacità una volta al giorno al 1° livello, più una volta addizionale al giorno ogni tre livelli dopo il 1°, fino ad un massimo di sette volte al giorno al 19° livello."},
+        {"name": "Leggiadria", "description": "Al 3° livello, un Campione Audace ottiene Bonus di Schivare +1 alla CA quando indossa un'armatura leggera o nessuna armatura e non trasporta un carico più pesante di un carico leggero. Qualsiasi cosa che faccia sì che il Campione Audace perda il suo bonus di Destrezza alla CA causa anche la perdita di questo Bonus di Schivare. Questo bonus aumenta di 1 ogni 4 livelli dopo il 3° (fino a un massimo di +5 al 19° livello)."},
+        {"name": "Eleganza e Gesta", "description": "Al 4° livello, un Campione Audace ottiene il privilegio di classe dell'Intrepido Eleganza insieme alle seguenti Gesta dell'Intrepido: Colpo Preciso, Eleganza Schivante e Iniziativa Intrepida."},
+        {"name": "Iniziativa dell'intrepido", "description": "Al 3° livello, quando l'intrepido ha almeno un punto eleganza, ottiene bonus +2 alle prove di Iniziativa. Inoltre, se ha il talento Estrazione Rapida, le sue mani libere e senza limitazioni, e un'arma da mischia perforante leggera o a una mano non nascosta e pronta per essere estratta, può estrarla come parte di una prova di Iniziativa."},
+        {"name": "Colpo Preciso", "description": "Al 3° livello, quando l'intrepido ha almeno un punto eleganza, ottiene la capacità di colpire di precisione con un'arma perforante leggera o a una mano (che non sia un'arma naturale), aggiungendo il suo livello da intrepido ai danni. Per usare questa gesta, non può attaccare con l'arma che impugna nell'altra mano o usare uno scudo che non sia un Buckler. Può usare questa capacità anche quando lancia un'arma da mischia perforante leggera o a una mano, fintanto che il bersaglio è entro 9 metri dà lui. Qualsiasi creatura immune agli attacchi furtivi è immune al danno addizionale concesso da colpo preciso, e qualsiasi oggetto o capacità in grado di proteggere una creatura dai colpi critici la protegge anche dal danno addizionale di un colpo preciso. Questo danno addizionale è danno da precisione e non si moltiplica in caso di colpo critico. Come azione veloce, un intrepido può spendere 1 punto eleganza per raddoppiare il bonus al danno del suo colpo preciso nel suo attacco successivo. Questo beneficio deve essere usato prima del termine del suo turno o va perso. Il costo di questa gesta non può essere ridotto da nessuna capacità o effetto che riduce l'ammontare in punti eleganza, dei costi di una gesta (come il talento Gesta Personali)."},
+        {"name": "Eleganza Schivante", "description": "Al 1° livello, quando un avversario tenta un attacco in mischia contro l'intrepido, quest'ultimo può spendere, come azione immediata, 1 punto eleganza per muoversi di 1,5 metri; farlo gli concede un Bonus di Schivare alla CA pari al suo modificatore di Carisma (minimo 0) contro l'attacco innescante. Questo movimento non nega l'attacco, che si risolve come se l'intrepido non si fosse mosso dal suo quadretto precedente. Questo movimento non è un passo di 1,5 metri: provoca Attacchi di Opportunità da parte delle creature che non hanno innescato questa gesta. L'intrepido può intraprendere questa gesta solo se indossa un'armatura leggera o nessuna armature, e non trasporta nulla di più pesante di un carico leggero."},
+        {"name": "Stendardo del Fante", "description": "Un alleato che beneficia di questo stendardo ottiene un bonus di schivata alla CA di +2 contro gli attacchi di opportunità provocati dal movimento e +2 di bonus morale agli attacchi che beneficiano di fiancheggiamento. Al livello 10, e per ogni 5 livelli successivi, il bonus alla CA è aumentato di 1. Al livello 14 un alleato che beneficia dello stendardo ottiene 1d6 di attacco furtivo; questo bonus si somma ad altre fonti di attacco furtivo. Quando il cavaliere sventola lo stendardo, un numero di creature, pari al modificatore di carisma del cavaliere (minimo 1) entro 18 metri possono, ognuna di loro, provare una manovra di finta contro un avversario che il cavaliere minaccia come azione immediata."},
+        {"name": "Reckless", "description": "You gain a +1 trait bonus on Acrobatics checks, and Acrobatics becomes a class skill for you."},
+        {"name": "Amico in Ogni Città", "description": "Il personaggio non ha problemi a farsi degli amici e ad avere da loro informazioni ovunque vada. Ottiene bonus di tratto +1 a tutte le prove di Conoscenze (locali) e di Diplomazia. Una di queste Abilità (a sua scelta) viene aggiunta alle sue Abilità di classe."}
+    ],
+    "skills": [
+        {"name": "Acrobatics", "total": 13},
+        {"name": "Appraise", "total": 8},
+        {"name": "Bluff", "total": 12},
+        {"name": "Climb", "total": 8},
+        {"name": "Craft", "total": 6},
+        {"name": "Diplomacy", "total": 10},
+        {"name": "Disguise", "total": 3},
+        {"name": "Escape Artist", "total": 3},
+        {"name": "Fly", "total": 3},
+        {"name": "Handle Animal", "total": 7},
+        {"name": "Heal", "total": 1},
+        {"name": "Intimidate", "total": 12},
+        {"name": "Knowledge (Local)", "total": 10},
+        {"name": "Perception", "total": 1},
+        {"name": "Intrattenere", "total": 9},
+        {"name": "Marinaio", "total": 10},
+        {"name": "Ride", "total": 3},
+        {"name": "Sense Motive", "total": 7},
+        {"name": "Stealth", "total": 5},
+        {"name": "Survival", "total": 1},
+        {"name": "Swim", "total": 8}
+    ],
+    "equip": {
+        "currency": {"cp": 0, "sp": 0, "gp": 28, "pp": 0}
+    }
+}
