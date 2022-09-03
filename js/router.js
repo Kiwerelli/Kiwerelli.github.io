@@ -15,15 +15,28 @@ const routes = {
     "/personaggi/jason": "/pages/personaggi/jason.html",
     "/personaggi/victor": "/pages/personaggi/victor.html",
     "/personaggi/vincent": "/pages/personaggi/vincent.html",
-    "/personaggi/sorumur": "/pages/personaggi/sorumur.html",
     /* Routes Equipaggio */
     "/equipaggio": "/pages/equipaggio.html",
     /* Routes Png */
     "/png": "/pages/png.html",
     /* Routes Porti */
     "/porti": "/pages/porti.html",
+    /* Routes Isole */
+    "/isole": "/pages/isole.html",
+    /* Routes Bestiario */
+    "/bestiario": "/pages/bestiario.html",
+    /* Routes Handout */
+    "/handouts": "/pages/handouts.html",
+    /* Routes Diario */
+    "/diario": "/pages/diario_del_capitano.html",
+    /* Routes Appunti */
+    "/appunti": "/pages/appunti_nautici.html",
+    /* Routes Bottino */
+    "/bottino": "/pages/bottino.html",
+    /* Routes Varie */
+    "/varie": "/pages/varie.html",
     /* Routes Scheda interattiva */
-    "/scheda": "/pages/scheda.html"
+    //"/scheda": "/pages/scheda.html"
 }
 
 const handleLocation = async () => {

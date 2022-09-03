@@ -119,6 +119,12 @@ a {
     color: #ddd;
 }
 
+.linketto {
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+
 /* Pg Pathfinder */
 h5, h6 {
     padding: 3px;
